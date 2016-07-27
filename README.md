@@ -15,3 +15,23 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# ===============================================================
+
+See INSTALL for an instllation instruction.
+
+The SimTools repository, which had been hosted at 
+<http://jlccvs.kek.jp/>, was moved to the Github
+since summer 2016. 
+
+Additional information will be found at following URLs and 
+and links therein.
+- http://acfahep.kek.jp/subg/sim/simtools/index.html
+- http://acfahep.kek.jp/subg/sim/
+- http://www-jlc.kek.jp/
+- http://acfahep.kek.jp/index.html
+
+# ===============================================================
+27-July-2016  Akiya Miyamoto, KEK, Japan
+
+
