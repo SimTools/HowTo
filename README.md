@@ -34,6 +34,5 @@ and links therein.
 - http://acfahep.kek.jp/index.html
 
 -----------------------------------------------------------
-27-July-2016  Akiya Miyamoto, KEK, Japan
 
 
