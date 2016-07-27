@@ -16,7 +16,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# ===============================================================
+# ----
 
 See INSTALL for an instllation instruction.
 
@@ -31,7 +31,7 @@ and links therein.
 - http://www-jlc.kek.jp/
 - http://acfahep.kek.jp/index.html
 
-# ===============================================================
+# ---- 
 27-July-2016  Akiya Miyamoto, KEK, Japan
 
 
