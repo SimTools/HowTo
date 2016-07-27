@@ -1,0 +1,24 @@
+#
+# How to install SimTools package
+# 
+# Following command will build a simtools package
+#
+
+$ mkdir SimTools
+$ git clone http://github.com/SimTools/HowTo.git
+$ cd HowTo
+... Edit setup.sh and set environment parameters 
+
+$ cd ../
+$ ./HowTo/build.sh 
+
+# Required package.
+  ROOT ( tested with 5.34.0 )
+  lcio ( tested with v02-07 )
+  JDK
+  cernlib 
+  CLHEP ( tested with 2.1.4.1 )
+  stdhep ( tested with 5-06-01 )
+
+27-July-2016, Akiya Miyamoto, KEK, Japan
+   
