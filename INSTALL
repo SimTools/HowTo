@@ -1,17 +1,9 @@
 #
 # How to install SimTools package
-# 
-# Following command will build a simtools package
 #
-
-$ mkdir SimTools
-$ git clone http://github.com/SimTools/HowTo.git
-$ cd HowTo
-... Edit setup.sh and set environment parameters 
-
-$ cd ../
-$ ./HowTo/build.sh 
-
+# ===========================================
+# Requirements
+# ===========================================
 # Required package.
   ROOT ( tested with 5.34.0 )
   lcio ( tested with v02-07 )
@@ -20,7 +12,32 @@ $ ./HowTo/build.sh
   CLHEP ( tested with 2.1.4.1 )
   stdhep ( tested with 5-06-01 )
 
-# This package was build with gcc-4.8.1
+# This package was build with gcc-4.8.1 & SL6
 
+# ===========================================
+# commands to build Simtools package
+# ===========================================
+#
+
+$ mkdir SimTools
+$ git clone https://github.com/SimTools/HowTo.git
+$ cd HowTo
+... Edit setup.sh and set environment parameters 
+
+$ cd ../
+$ ./HowTo/build.sh 
+
+If you have git account and will commit changes later,
+you may do 
+$ git clone https://(git_account)@github.com/SimTools/HowTo.git 
+
+or you may do, later when you need to commit changes, 
+$ git remote set-url origin https://(git_account)@github.com/SimTools/HowTo.git 
+
+Gtk dialog box to get password would be disabled by 
+$ export SSH_ASKPASS= 
+In this case, a terminal IO is used to get password.
+
+################################################
 27-July-2016, Akiya Miyamoto, KEK, Japan
    
