@@ -27,6 +27,10 @@ $ cd HowTo
 $ cd ../
 $ ./HowTo/build.sh 
 
+Compiler setting is defined in lcbase/bin/config.ini-orig, which is copied to 
+config.in during build.sh.  If you use non-gcc compiler, create a config.in
+in the same directory prior to run build.sh
+
 If you have git account and will commit changes later,
 you may do 
 $ git clone https://(git_account)@github.com/SimTools/HowTo.git 
