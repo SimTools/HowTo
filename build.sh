@@ -13,7 +13,9 @@ done
 
 (
   cd lcbase/bin
-  cp -v config.in-orig config.in 
+  if [ !-e config.in ] ; then 
+    cp -v config.in-orig config.in 
+  fi
 )
 
 # Setup environment
