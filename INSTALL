@@ -20,5 +20,7 @@ $ ./HowTo/build.sh
   CLHEP ( tested with 2.1.4.1 )
   stdhep ( tested with 5-06-01 )
 
+# This package was build with gcc-4.8.1
+
 27-July-2016, Akiya Miyamoto, KEK, Japan
    

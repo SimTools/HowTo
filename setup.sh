@@ -14,7 +14,7 @@ export LC_RELEASE_DIR=/group/ilc/soft/gcc481/SimTools
 utildir=/group/ilc/soft/gcc481
 . ${utildir}/gcc481.setup   # Set up gcc4.8.1 environment
 
-export ROOTSYS=${utildir}/root/5.34.0
+export ROOTSYS=${utildir}/root/5.34.30
 # export G4INSTALL=${utildir}/g4/geant4.9.3.p02
 export LCIO=${utildir}/lcio/v02-07
 export JDK_HOME=${utildir}/java/default
