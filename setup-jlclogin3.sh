@@ -4,21 +4,21 @@
 ##
 #######################################################
 ##
-##  Setup for KEKCC-gcc44, 12-Aug-2012
+##  Setup for JLCLOGIN3
 ##
 #######################################################
 
 export LC_RELEASE=
-export LC_RELEASE_DIR=/sw/ilc/gcc447/SimTools
+export LC_RELEASE_DIR=/group/ilc/soft/gcc481/SimTools
 #
-utildir=/sw/ilc/gcc447
-# . ${utildir}/gcc481.setup   # Set up gcc4.8.1 environment
+utildir=/group/ilc/soft/gcc481
+. ${utildir}/gcc481.setup   # Set up gcc4.8.1 environment
 
 export ROOTSYS=${utildir}/root/5.34.30
 # export G4INSTALL=${utildir}/g4/geant4.9.3.p02
-export LCIO=${utildir}/v01-17-10/lcio/v02-07-02
-export JDK_HOME=${utildir}/java/1.6.0
-export CERN_ROOT=${utildir}/cernlib/2006
+export LCIO=${utildir}/lcio/v02-07
+export JDK_HOME=${utildir}/java/default
+export CERN_ROOT=${utildir}/cernlib/2005
 
 export CLHEP_BASE_DIR=${utildir}/CLHEP/2.1.4.1
 export CLHEP_INCLUDE_DIR=$CLHEP_BASE_DIR/include

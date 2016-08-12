@@ -3,20 +3,22 @@
 # 
 
 
-git_repository=https://github.com/SimTools
+#git_repository=https://github.com/SimTools
 
-for package in lcbase Leda lclib jsf physsim ; do 
-  echo "git-cloning ${package}"
-  git clone ${git_repository}/${package}
+#for package in lcbase Leda lclib jsf physsim ; do 
+#  echo "git-cloning ${package}"
+#  git clone ${git_repository}/${package}
 
-done
+#done
 
 (
   cd lcbase/bin
-  if [ !-e config.in ] ; then 
+  if [ ! -e config.in ] ; then 
     cp -v config.in-orig config.in 
   fi
 )
+
+exit
 
 # Setup environment
 . HowTo/setup.sh 
