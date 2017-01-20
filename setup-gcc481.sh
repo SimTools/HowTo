@@ -12,7 +12,7 @@ export LC_RELEASE=
 export LC_RELEASE_DIR=/sw/ilc/gcc481/SimTools
 #
 utildir=/sw/ilc/gcc481
-. ${utildir}/gcc481.setup   # Set up gcc4.8.1 environment
+. ${utildir}/setup-gcc481.sh   # Set up gcc4.8.1 environment
 
 export ROOTSYS=${utildir}/root/5.34.30
 # export G4INSTALL=${utildir}/g4/geant4.9.3.p02
@@ -49,6 +49,6 @@ unset LCPATH
 unset LCIOPATH
 
 ## Set LD Library Path
-export LD_LIBRARY_PATH=$JSFROOT/lib:$ROOTSYS/lib:$LEDAROOT/lib:$CLHEP_BASE_DIR/lib:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH=$JSFROOT/lib:$ROOTSYS/lib:$LEDAROOT/lib:$CLHEP_BASE_DIR/lib:${KFLIBROOT}/lib:${LD_LIBRARY_PATH}
 export IMAKEINCLUDE="-I$LCBASEDIR -I$KFLIBROOT -I$LCLIBROOT"
 
