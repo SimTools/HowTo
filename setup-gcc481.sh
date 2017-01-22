@@ -22,7 +22,7 @@ export CERN_ROOT=${utildir}/cernlib/2006
 
 export CLHEP_BASE_DIR=${utildir}/CLHEP/2.1.4.1
 export CLHEP_INCLUDE_DIR=$CLHEP_BASE_DIR/include
-export STDHEPDIR=${utildir}/stdhep-5-06-01
+export STDHEPDIR=${utildir}/stdhep/5.06.01
 
 export LCBASEDIR=$LC_RELEASE_DIR/lcbase
 export LEDAROOT=$LC_RELEASE_DIR/Leda
