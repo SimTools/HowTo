@@ -12,17 +12,17 @@ export LC_RELEASE=
 export LC_RELEASE_DIR=/sw/ilc/gcc481/SimTools
 #
 utildir=/sw/ilc/gcc481
-. ${utildir}/gcc481.setup   # Set up gcc4.8.1 environment
+. ${utildir}/setup-gcc481.sh   # Set up gcc4.8.1 environment
 
 export ROOTSYS=${utildir}/root/5.34.30
 # export G4INSTALL=${utildir}/g4/geant4.9.3.p02
-export LCIO=${utildir}/v01-17-09/lcio/v02-07
+export LCIO=${utildir}/v01-17-09/lcio/v02-07-03
 # export JDK_HOME=${utildir}/java/1.6.0
 export CERN_ROOT=${utildir}/cernlib/2006
 
 export CLHEP_BASE_DIR=${utildir}/CLHEP/2.1.4.1
 export CLHEP_INCLUDE_DIR=$CLHEP_BASE_DIR/include
-export STDHEPDIR=${utildir}/stdhep-5-06-01
+export STDHEPDIR=${utildir}/stdhep/stdhep-5-06-01
 
 export LCBASEDIR=$LC_RELEASE_DIR/lcbase
 export LEDAROOT=$LC_RELEASE_DIR/Leda
