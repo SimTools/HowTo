@@ -22,7 +22,7 @@ export CERN_ROOT=${utildir}/cernlib/2005
 
 export CLHEP_BASE_DIR=${utildir}/CLHEP/2.1.4.1
 export CLHEP_INCLUDE_DIR=$CLHEP_BASE_DIR/include
-export STDHEPDIR=${utildir}/stdhep-5-06-01
+export STDHEPDIR=${utildir}/stdhep/stdhep-5-06-01
 
 export LCBASEDIR=$LC_RELEASE_DIR/lcbase
 export LEDAROOT=$LC_RELEASE_DIR/Leda
@@ -34,6 +34,16 @@ export KFLIBROOT=$LC_RELEASE_DIR/physsim
 # export SATELLITESROOT=$LC_RELEASE_DIR/Satellites
 # export URANUSROOT=$LC_RELEASE_DIR/Uranus
 export SOSYMLINK=true
+
+#################################
+# Define following environment parameters to build JSF with Whizard
+# for DBD studies
+export WHIZDIR=/group/ilc/soft/gcc481/whizard/whizard-1.95-20150518
+# export utiltau=/home/ilc/miyamoto/soft/physsim2
+export utils=/group/ilc/soft/gcc481
+export TAUOLADIR=${utildir}/tauola/tauola_desy/TAUOLA/tauola
+export PHOTOSDIR=${utildir}/tauola/tauola_desy/TAUOLA/photos
+export PYTHIADIR=${utildir}/pythia/6.4.22
 
 
 ##### Geatn4 setup ##############
